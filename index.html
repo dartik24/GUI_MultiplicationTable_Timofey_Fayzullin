@@ -1,0 +1,38 @@
+<!--
+File: index.html
+GUI Assignment: Creating a dynamic multiplication table.
+Timofey Fayzullin, Umass Lowell Computer Science,
+timofey_fayzullin@student.uml.edu
+Copyright (c) 2021 by Timofey. All rights reserved. May be freely copid or
+excerpted for educational purposes with credit to the author.
+update by TF on October 4th, 2021 at 8:14 PM
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>MultTable</title>
+      <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Multiplication Table Generator</h1>
+    <p>Input first and last row limiters</p>
+    <form id="input" action="" method="GET">
+        <input type="number" name="botr" id="botr" value=1>
+        <input type="number" name="topr" id="topr" value=10>
+    </form>
+    <p>Input first and last column limiters</p>
+    <form id="input" action="" method="GET">
+      <input type="number" name="botc" id="botc" value=1>
+      <input type="number" name="topc" id="topc" value=10>
+    </form>
+    <input id="clickMe" type="button" value="plot" onclick="makeAchart();">
+    <p id="errors"></p>
+    <div>
+      <table id="tbl">
+
+      </table>
+    </div>
+    <script src='index.js'></script>
+  </body>
+</html>
