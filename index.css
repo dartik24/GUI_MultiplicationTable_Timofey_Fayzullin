@@ -11,8 +11,6 @@ update by TF on October 4th, 2021 at 8:14 PM
 table, td, th{
   border: 1px solid black;
   border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto; 
 }
 
 td, th{
@@ -87,5 +85,3 @@ div{
   margin-left: auto;
   margin-right: auto;
 }
-
-
