@@ -41,6 +41,7 @@ body{
   text-align: center;
   margin: auto;
   background-color: antiquewhite;
+  background-image: url("images/background.jpg");
 }
 
 form{
@@ -85,3 +86,5 @@ div{
   margin-left: auto;
   margin-right: auto;
 }
+
+
