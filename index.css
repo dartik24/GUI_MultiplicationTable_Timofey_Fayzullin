@@ -8,6 +8,7 @@ excerpted for educational purposes with credit to the author.
 update by TF on October 4th, 2021 at 8:14 PM
 */
 
+/*table customization*/
 table, td, th{
   border: 1px solid black;
   border-collapse: collapse;
@@ -18,6 +19,7 @@ td, th{
   font-size: 20px;
 }
 
+/*table header*/
 th{
   background-color: grey;
   position: sticky;
@@ -29,14 +31,16 @@ th{
   z-index: 2;
 }
 
-p{
-  font-size: 20px;
-}
-
 td:hover{
   background-color: darkgray;
 }
 
+/*paragraph size setup*/
+p{
+  font-size: 20px;
+}
+
+/*body placement and background*/
 body{
   text-align: center;
   margin: auto;
@@ -44,6 +48,7 @@ body{
   background-image: url("images/background.jpg");
 }
 
+/*form and submittion customization*/
 form{
   padding-top: 15px;
   padding-bottom: 15px;
@@ -66,11 +71,13 @@ input{
 
 }
 
+/*error text customization*/
 #errors{
   font-size:medium;
   font-weight: bold;
 }
 
+/*header text customization*/
 h1{
   padding-top: 15px;
   padding-bottom: 15px;
@@ -78,6 +85,7 @@ h1{
   font-style: italic;
 }
 
+/*table container customization*/
 div{
   height: 400px;
   width: 400px;
