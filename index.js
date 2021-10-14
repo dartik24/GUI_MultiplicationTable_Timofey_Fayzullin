@@ -32,9 +32,9 @@ function makeAchart(){
     fc = sc;
     sc = t;
   }
-  if(fc > 250 || sr > 250 || fc > 250 || sc > 250 || fc < -250 || sc < -250 || fr < -250 || sr < -250)
+  if(fc > 250 || sr > 250 || fr > 250 || sc > 250 || fc < -250 || sc < -250 || fr < -250 || sr < -250 || isNaN(fc) || isNaN(fr) || isNaN(sc) || isNaN(sr))
   {
-    errid += "Please enter a number range between -250 and 250";
+    errid += "Please enter a valid number range between -250 and 250";
     err.innerHTML=errid;
     return;
   }
