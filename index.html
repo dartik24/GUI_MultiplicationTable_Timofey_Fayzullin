@@ -10,29 +10,37 @@ update by TF on October 4th, 2021 at 8:14 PM
 
 <!DOCTYPE html>
 <html lang="en">
+<!--head setup and css linkage-->
   <head>
       <title>MultTable</title>
       <link href="index.css" rel="stylesheet">
   </head>
+<!--body setup-->
   <body>
     <h1>Multiplication Table Generator</h1>
     <p>Input min and max rows</p>
+<!--row input field-->
     <form id="input" action="" method="GET">
         <input type="number" name="botr" id="botr" value=1 onkeydown="javascript: return event.keyCode == 69 ? false : true">
         <input type="number" name="topr" id="topr" value=10 onkeydown="javascript: return event.keyCode == 69 ? false : true">
     </form>
     <p>Input min and max columns</p>
+<!--column input field-->
     <form id="input" action="" method="GET">
       <input type="number" name="botc" id="botc" value=1 onkeydown="javascript: return event.keyCode == 69 ? false : true">
       <input type="number" name="topc" id="topc" value=10 onkeydown="javascript: return event.keyCode == 69 ? false : true">
     </form>
+<!--submit button-->
     <input id="clickMe" type="button" value="plot" onclick="makeAchart();">
+<!--error handle-->
     <p id="errors"></p>
+<!--multiplication table field-->
     <div>
       <table id="tbl">
 
       </table>
     </div>
+<!--script linkage-->
     <script src='index.js'></script>
   </body>
 </html>
